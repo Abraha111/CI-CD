@@ -1,5 +1,5 @@
 name: CI-CD
-on: [commit_comment]
+on: [workflow_dispatch]
 jobs:
   print:
     runs-on: ubuntu-latest
