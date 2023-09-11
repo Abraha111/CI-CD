@@ -1,0 +1,12 @@
+name: CI-CD
+on: workflow_dispatch
+jobs:
+  print:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print to console
+        run: echo Hello CI CD starter
+      - name: Print a few lines
+        run: |
+          echo the first line
+          echo the second line
